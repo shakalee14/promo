@@ -19,6 +19,12 @@
 
         }
 
+        #pics {
+            display: flex;
+            justify-content: space-evenly;
+            height: 350px;
+        }
+
         div {
             padding: 16px;
             margin-top: 24px;
@@ -88,11 +94,15 @@
             <br />
             <br />
             <img src="./public/wpost.png" style="height: 350px;" />
+            <p><em>A headline from the Washington Post from August 25, 2026</em></p>
         </div>
         <hr />
         <div id="accomplish">
             <h3>What I hope to accomplish</h3>
             <img src="./public/riverraider.png" style="height: 350px" />
+            <p><em>Initial game screen from River Raider 1863, A 2D Game Prototype</em></p>
+            <br/>
+            <br/>
             <p>1) Participate and document research on how to make black history more accessible, including the future
                 of it.</p>
             <p>2) Develop a game - the type of game and tech stack is to be determined.</p>
@@ -113,11 +123,12 @@
         <hr />
         <div>
             <h3>Why I'm excited</h3>
-            <img src="./public/harriet.png" style="height: 250px" />
-            <img src="./public/futureblackstudies.png" style="height: 250px" />
-            <img src="./public/assatacuba.png" style="height: 250px" />
-            <br />
-            <br />
+            <div id="pics">
+            <img src="./public/harriet.png"  />
+            <img src="./public/assatacuba.png"  />
+                        <img src="./public/futureblackstudies.png"  />
+            </div>
+            <p>1) Harriet Tubman Illustration Holding Shot Gun    2) Cover of The Future of Black Studies by Abdul Alkalimat     3) Portrait of Assata Shakur in Cuba </p>
             <div id="excitement">
                 <p>I majored in Black Studies in undergrad and am a full stack engineer professionally. I also worked on
                 games for almost 5 years. This will join some of things I am passionate about and give me the opportunity to
