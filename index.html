@@ -12,13 +12,19 @@
         body {
             text-align: center;
             font-family: "Play", sans-serif;
-            background-color: #111111;
             color: white;
+            margin: 0;
+            padding: 0;            
+            background-image: url('./public/drinkinggourd.jpeg');
+
         }
 
         div {
             padding: 16px;
             margin-top: 24px;
+        }
+
+        p {
             font-size: 1.1em;
         }
 
@@ -45,34 +51,36 @@
             }
 
             a:hover {
-                background-color: rgb(195, 75, 75);
-                color: black;
+                background-color: black;
                 width: 198px;
-                border: 1px solid rgb(195, 75, 75);
+                border: 1px solid black;
             }
         }
 
         #accomplish>p,
-        #audience>p {
+        #audience>p,
+        #excitement>p {
             margin: 0 auto;
         }
+        h1 {
+            margin-top: 150px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+        }
     </style>
-    <script>
-    </script>
 </head>
 
 <body>
-    <img src="./public/loadergif.gif" alt="loader" style="width:400px;height:400px;">
-    <h1>Nothing to Lose: A Journey To Freedom</h1>
-    <em>Real Black History. Real Black Heroes.</em>
+    <h1>Nothing to Lose: A Journey to Freedom</h1>
     <br />
-    <em>Your Adventure.</em>
+    <p>Get to experience historically acccurate gaming experiences to learn about Assata or Harriet's
+        journey to freedom.</p>
     <div id="heroes-container">
         <a id="harriet"><button>Harriet</button></a>
         <a id="assata"><button>Assata</button></a>
     </div>
-    <p>Get to experience historically acccurate gaming experiences to learn about Assata or Harriet's
-        journey to freedom.</p>
     <hr />
     <div id="container">
         <div>
@@ -93,6 +101,8 @@
         <div>
             <h3>What this project will bring to audiences</h3>
             <img src="./public/whenriversweretrails.png" style="height: 350px" />
+            <br />
+            <em>Character from When Rivers Were Trails, 2019</em>
             <div id="audience">
                 <p>1) Community organizers leaning on the legacies of Assata or Harriet</p>
                 <p>2) Middle/High Schoolers studying Black Histories</p>
@@ -103,13 +113,18 @@
         <hr />
         <div>
             <h3>Why I'm excited</h3>
-            <img src="./public/futureblackstudies.png" style="height: 350px" />
+            <img src="./public/harriet.png" style="height: 250px" />
+            <img src="./public/futureblackstudies.png" style="height: 250px" />
+            <img src="./public/assatacuba.png" style="height: 250px" />
             <br />
             <br />
-            <p>I majored in Black Studies in undergrad and am a full stack engineer professionally. I also worked on
+            <div id="excitement">
+                <p>I majored in Black Studies in undergrad and am a full stack engineer professionally. I also worked on
                 games for almost 5 years. This will join some of things I am passionate about and give me the opportunity to
                 have
                 conversations around how tech can continue to shift the accessibility of education. </p>
+        
+            </div>
         </div>
     </div>
 </body>
